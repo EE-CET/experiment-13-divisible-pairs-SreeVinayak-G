@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Example 1",
+      "setup": "javac src/DivisiblePairs.java",
+      "run": "java -cp src DivisiblePairs",
+      "input": "6 3\n1 3 2 6 1 2",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Example 2",
+      "setup": "javac src/DivisiblePairs.java",
+      "run": "java -cp src DivisiblePairs",
+      "input": "4 5\n1 3 2 6",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "No Pairs Divisible",
+      "setup": "javac src/DivisiblePairs.java",
+      "run": "java -cp src DivisiblePairs",
+      "input": "3 10\n1 2 3",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "All Pairs Divisible (k=1)",
+      "setup": "javac src/DivisiblePairs.java",
+      "run": "java -cp src DivisiblePairs",
+      "input": "3 1\n1 2 3",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
